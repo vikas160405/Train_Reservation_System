@@ -76,11 +76,11 @@ Train_Reservation_System/
 │
 ├── main.py
 ├── database.py
+├── database.sql
 ├── requirements.txt
 ├── .env
 ├── .gitignore
 └── README.md
-```
 
 ## ⚙️ Installation and Setup
 
