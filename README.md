@@ -163,8 +163,6 @@ The application uses MySQL to store and manage:
 
 **Vikas Relangi**
 
-B.Tech – Artificial Intelligence and Data Science
-
 GitHub: [vikas160405](https://github.com/vikas160405)
 
 ## 📌 Project Status
