@@ -1,3 +1,4 @@
+
 # 🚆 Train Reservation System
 
 A console-based Train Reservation System developed using Python and MySQL. This application allows users to register, search trains, reserve seats, book tickets, process payments, manage cancellations, and handle waitlisted passengers.
@@ -11,21 +12,18 @@ It supports customer and administrator operations with database-backed booking m
 ## ✨ Features
 
 ### 👤 User Management
-
 - User Registration
 - User Login
 - Password Hashing
 - User Authentication
 
 ### 🚉 Train Management
-
 - Search Available Trains
 - Check Seat Availability
 - Select Train
 - Select Travel Class
 
 ### 🎫 Ticket Booking
-
 - Passenger Registration
 - Seat Selection
 - Automatic Fare Calculation
@@ -34,26 +32,22 @@ It supports customer and administrator operations with database-backed booking m
 - E-Ticket Generation
 
 ### 💳 Payment Management
-
 - Payment Processing Simulation
 - Payment Status Tracking
 - Transaction ID Generation
 
 ### ❌ Cancellation Management
-
 - Ticket Cancellation
 - Refund Calculation
 - Seat Availability Update
 - Cancellation History
 
 ### ⏳ Waitlist Management
-
 - Add Passengers to Waitlist
 - View Waitlist
 - Promote Waitlisted Passengers
 
 ### 🔐 Admin Features
-
 - View All Users
 - View All Bookings
 - View All Payments
@@ -81,6 +75,7 @@ Train_Reservation_System/
 ├── .env
 ├── .gitignore
 └── README.md
+```
 
 ## ⚙️ Installation and Setup
 
@@ -118,11 +113,15 @@ pip install -r requirements.txt
 
 ### 6. Configure MySQL Database
 
-Create a MySQL database:
+Open MySQL Workbench or your MySQL terminal and execute the `database.sql` file.
 
-```sql
-CREATE DATABASE train_reservation_system;
+Alternatively, run:
+
+```bash
+mysql -u root -p < database.sql
 ```
+
+### 7. Configure Environment Variables
 
 Create a `.env` file in the project directory:
 
@@ -135,9 +134,9 @@ DB_NAME=train_reservation_system
 
 Replace the values with your own MySQL credentials.
 
-**Note:** The required database tables and initial data must also be created before running the application.
+**Important:** Never upload your `.env` file or expose your database credentials on GitHub.
 
-### 7. Run the Application
+### 8. Run the Application
 
 ```bash
 python main.py
@@ -162,6 +161,8 @@ The application uses MySQL to store and manage:
 ## 👨‍💻 Developer
 
 **Vikas Relangi**
+
+B.Tech – Artificial Intelligence and Data Science
 
 GitHub: [vikas160405](https://github.com/vikas160405)
 
